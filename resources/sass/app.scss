@@ -74,31 +74,31 @@
     }
 }
 
-// .content_menu {
-//     background-color: $colorActive;
-//     padding: 50px 0;
-// }
+.content_menu {
+    background-color: $colorActive;
+    padding: 50px 0;
+}
 
-// .menu {
-//     list-style: none;
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     color: white;
-//     text-transform: uppercase;
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
 
-//     li {
-//         display: flex;
-//         align-items: center;
-//         font-size: 15px;
+    li {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
 
-//         h5 {
-//             font-weight: 400;
-//         }
-//     }
+        h5 {
+            font-weight: 400;
+        }
+    }
 
-//     img {
-//         height: 2.5rem;
-//         margin-right: 10px;
-//     }
-// }
+    img {
+        height: 2.5rem;
+        margin-right: 10px;
+    }
+}

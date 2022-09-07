@@ -76,3 +76,29 @@ body {
 .product h6 {
   font-weight: 400;
 }
+
+.content_menu {
+  background-color: #0282f9;
+  padding: 50px 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.menu li h5 {
+  font-weight: 400;
+}
+.menu img {
+  height: 2.5rem;
+  margin-right: 10px;
+}

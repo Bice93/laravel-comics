@@ -24,4 +24,17 @@
         </div>
     </div>
 
+    <div class="content_menu">
+        <div class="container">
+            <ul class="menu">
+                @foreach ($links as $link)
+                <li>
+                    <img src="../assets/images/{{ $link->image }}" alt="" />
+                    <h5> {{ $link->title }} </h5>
+                </li>
+                @endforeach
+            </ul>
+        </div>
+    </div>
+
 @endsection
