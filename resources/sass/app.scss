@@ -2,9 +2,47 @@
 @import "partials/general.scss";
 @import "partials/variables.scss";
 
+.jumbotron {
+    height: 300px;
+    background-image: url("../assets/images/jumbotron.jpg");
+    background-size: cover;
+}
+
+.rowSeries {
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
 .container {
     width: 1000px;
     margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+
+    h2 {
+        width: 20%;
+        background-color: $colorActive;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        padding: 5px;
+        position: absolute;
+        top: -50px;
+    }
+
+    button {
+        background-color: $colorActive;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: .6rem;
+        font-weight: bold;
+        padding: 5px 25px;
+    }
 }
 
 .container_products {
@@ -17,24 +55,24 @@
     margin: 20px 10px;
     text-transform: uppercase;
     text-align: left;
-  
+
     .box_image {
-      width: 100%;
-      height: 10rem;
-      margin-bottom: 10px;
-  
-      img {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: top;
-      }
+        height: 10rem;
+        margin-bottom: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
     }
-  
+
     h6 {
-      font-weight: 400;
+        font-weight: 400;
     }
-  }
+}
 
 // .content_menu {
 //     background-color: $colorActive;
